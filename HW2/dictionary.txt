@@ -7,7 +7,7 @@ by
 chitranga	
 colour	
 could	
-demmo	
+demo	
 doctor	
 harsh	
 have	
@@ -272,7 +272,7 @@ anyone
 anything	
 anythingthat	
 anywhere	
-anæmic	
+anï¿½mic	
 apart	
 apartments	
 apathy	
@@ -1594,7 +1594,7 @@ delivering
 delusive	
 demand	
 demented	
-demmo	
+demo	
 demoralisation	
 den	
 denning	
@@ -2365,7 +2365,7 @@ fatigue
 fatigued	
 fattened	
 fattening	
-façade	
+faï¿½ade	
 fear	
 feared	
 fearful	
@@ -7741,7 +7741,7 @@ anyone
 anything	
 anythingthat	
 anywhere	
-anæmic	
+anï¿½mic	
 apart	
 apartments	
 apathy	
@@ -9063,7 +9063,7 @@ delivering
 delusive	
 demand	
 demented	
-demmo	
+demo	
 demoralisation	
 den	
 denning	
@@ -9834,7 +9834,7 @@ fatigue
 fatigued	
 fattened	
 fattening	
-façade	
+faï¿½ade	
 fear	
 feared	
 fearful	

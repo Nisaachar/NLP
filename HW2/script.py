@@ -47,10 +47,10 @@ def spell_check():
     else:
         flag = 0
         noError = 0
+        row = 0
+        suggestions = [[0] * 50] * 20    #defining a matrix for holding the suggestions.
+        totalWordsSuggested = 0
         for word in testStr.split():
-            totalWordsSuggested = 0
-            suggestions = [[0] * 20] * 20 #defining a matrix for holding the suggestions.
-            row = 0
             if word not in dictionary:
                 noError = 1
                 totalWordsSuggested = totalWordsSuggested + 1
@@ -63,10 +63,10 @@ def spell_check():
                         suggestions[row][count] = dic
                         count = count + 1
                 row = row + 1
-                print(suggestions)
+        # print(suggestions)
         if noError == 1:
             print('Mispelling - Suggestion \n--------------------------------')
-            for i in range(0, totalWordsSuggested + 1):
+            for i in range(0, totalWordsSuggested):
                 print(suggestions[i][0] + ' - ' + suggestions[i][1] + ' or ' + suggestions[i][2])
 
         if flag == 0:
