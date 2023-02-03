@@ -26,7 +26,7 @@ def spell_check():
     #loading the file and creating a dictionary from it.
     file = open("dictionary.txt", 'r', encoding = 'windows-1252')
     dictionary = {}
-    tolerance = 2 #defining a tolernace for the spell check.
+    tolerance = 1 #defining a tolernace for the spell check.
     
     while True:
         content = file.readline()
@@ -54,7 +54,7 @@ def spell_check():
             for word in testStr.split():
                 if word not in dictionary:
                     totalWordsSuggested = totalWordsSuggested + 1
-                    print('Mispellings suggestions\n----------------------------------------\n')
+                    print('Misspellings suggestions\n----------------------------------------\n')
                     flag = 1
                     innerLoop = 0
                     for dic in dictionary:
@@ -70,7 +70,7 @@ def spell_check():
             if flag == 0:
                 print("No misspellings detected!")
             else:
-                print('Total ' + str(totalWordsSuggested) + ' mispellings found')
+                print('Total ' + str(totalWordsSuggested) + ' misspelling/s found')
             
 spell_check()
 
