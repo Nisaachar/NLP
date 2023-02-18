@@ -19,6 +19,7 @@ def LevenshteinD(word1, word2):
                 table[i][j] = 1 + min(table[i - 1][j], table[i][j - 1], table[i - 1][j - 1])
     return table[-1][-1]        #returning the diagonal final value or levenshtein distance.
 
+print(LevenshteinD('no', 'nothing'))
 
 def spell_check():
 
